@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/webed.png">
+    <script src="https://kit.fontawesome.com/41999e5341.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <title>WebEdit-Free Online Web Editor HTML,CSS,JS</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+
+        </nav>
+    </header>
+    <div class="container">
+        <div class="left">
+            <label><i class="fa-brands fa-html5"></i>HTML</label>
+            <textarea id="html-code"></textarea>
+            <label id="lb"><i class="fa-brands fa-css3-alt"></i>CSS</label>
+            <textarea id="css-code"></textarea>
+            <label id="lb"><i class="fa-brands fa-square-js"></i>JavaScript</label>
+            <textarea id="js-code"></textarea>
+        </div>
+        <div class="runner">
+            <button class="bt" onclick="run()"><i class="fa-solid fa-play"></i>Run</button>
+        </div>
+        <div class="right">
+            <label>Output</label>
+            <iframe id="out"></iframe>
+        </div>
+    </div>
+</body>
+
+</html>
